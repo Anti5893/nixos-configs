@@ -32,7 +32,7 @@
   programs.neovim.enable = true;
   home.packages = with pkgs; [
   steam
-  vscodium-fhs
+  vscode-fhs
   firefox
   ];
 
