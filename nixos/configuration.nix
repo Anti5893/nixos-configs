@@ -45,7 +45,7 @@
     # Deduplicate and optimize nix store
     auto-optimise-store = true;
   };
-
+  networking.networkmanager.enable = true;
   networking.hostName = "evan-nixos";
 
   boot.loader.systemd-boot.enable = true;
@@ -67,6 +67,7 @@
     rofi-wayland
     ];
   };
+  services.getty.autologinUser = "evan";
  
   # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
   system.stateVersion = "23.11";
