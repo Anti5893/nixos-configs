@@ -1,3 +1,4 @@
+
 {
   description = "Your new nix config";
 
@@ -15,7 +16,7 @@
     # everything match nicely? Try nix-colors!
     # nix-colors.url = "github:misterio77/nix-colors";
   };
-
+  
   outputs = {
     self,
     nixpkgs,
@@ -34,10 +35,8 @@
       };
     };
 
-    # Standalone home-manager configuration entrypoint
-    # Available through 'home-manager --flake .#your-username@your-hostname'
     homeConfigurations = {
-      "evan@evan.nix" = home-manager.lib.homeManagerConfiguration {
+      "evan@evan-nix" = home-manager.lib.homeManagerConfiguration {
         pkgs = nixpkgs.legacyPackages.x86_64-linux; # Home-manager requires 'pkgs' instance
         extraSpecialArgs = {inherit inputs outputs;};
         # > Our main home-manager configuration file <

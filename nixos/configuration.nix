@@ -16,6 +16,7 @@
 
     # Import your generated (nixos-generate-config) hardware configuration
     ./hardware-configuration.nix
+    ./load-homemanager.nix
   ];
 
   nixpkgs = {
@@ -63,12 +64,12 @@
     wayland
     hyprland
     waybar
-    kitty
+    alacritty
     rofi-wayland
     ];
   };
   services.getty.autologinUser = "evan";
- 
+  
   # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
   system.stateVersion = "23.11";
 }
