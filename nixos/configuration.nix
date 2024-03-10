@@ -67,7 +67,7 @@
     alacritty
     rofi-wayland
     ];
-  };
+  
   services.getty.autologinUser = "evan";
   
   # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
