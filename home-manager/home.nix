@@ -35,6 +35,7 @@
   steam
   vscode-fhs
   firefox
+  xdg-utils
   ];
 
   # Enable home-manager and git
