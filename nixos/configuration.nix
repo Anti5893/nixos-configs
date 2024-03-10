@@ -66,8 +66,19 @@
     waybar
     alacritty
     rofi-wayland
+    steam
+    zsh
     ];
+    
   };
+  programs.steam = {
+      enable = true;
+      remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
+      dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
+    };
+    programs.zsh.enable = true;
+      users.defaultUserShell = pkgs.zsh;
+      programs.zsh.promptInit = "source ${pkgs.zsh-powerlevel10k}/share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
   
   services.getty.autologinUser = "evan";
   
