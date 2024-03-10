@@ -5,7 +5,7 @@
   ];
 
   home-manager = {
-    extraSpecialArgs = { inherit inputs outputs unstable; };
+    extraSpecialArgs = { inherit inputs outputs; };
     users = {
       # Import your home-manager configuration
       evan = import ../home-manager/home.nix;
