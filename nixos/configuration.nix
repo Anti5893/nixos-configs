@@ -72,6 +72,8 @@
     resources
     hardinfo
     wget
+    grim
+    slurp
     ];
   };
   programs.steam = {
