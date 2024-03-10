@@ -68,8 +68,10 @@
     rofi-wayland
     steam
     zsh
+    neofetch
+    resources
+    hardinfo
     ];
-  nixpkgs.config.pulseaudio = true;
   };
   programs.steam = {
       enable = true;
