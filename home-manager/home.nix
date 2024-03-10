@@ -42,6 +42,10 @@
   spotify
   rclone
   via
+  brightnessctl
+  pavucontrol
+  auto-cpufreq
+  libreoffice-fresh
   ];
   
 
