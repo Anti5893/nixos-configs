@@ -37,6 +37,9 @@
   vscode-fhs
   firefox
   xdg-utils
+  obsidian
+  vesktop # discord, vencord
+  spotifyd
   ];
   
 
