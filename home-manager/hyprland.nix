@@ -11,7 +11,5 @@
         waybar
         alacritty
         rofi-wayland
-        hyprcursor
-        hypridle
     ];
 }
