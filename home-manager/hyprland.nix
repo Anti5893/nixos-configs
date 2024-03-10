@@ -11,5 +11,5 @@
         waybar
         alacritty
         rofi-wayland
-    ]
+    ];
 }
