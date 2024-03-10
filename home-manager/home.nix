@@ -39,7 +39,9 @@
   xdg-utils
   obsidian
   vesktop # discord, vencord
-  spotifyd
+  spotify
+  rclone
+  via
   ];
   
 
