@@ -56,7 +56,7 @@
   users.users.evan = {
     isNormalUser = true;
     description = "Evan Savage";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "audio" "sound" "video"];
     packages = with pkgs; [ # in case of home-manager fail
     git
     vscode-fhs
@@ -69,7 +69,7 @@
     steam
     zsh
     ];
-    
+  nixpkgs.config.pulseaudio = true;
   };
   programs.steam = {
       enable = true;

@@ -27,6 +27,10 @@
     driSupport = true;
     driSupport32Bit = true;
   };
+  sound.enable = true;
+  hardware.pulseaudio.enable = true;
+  hardware.pulseaudio.support32Bit = true;
+  hardware.pulseaudio.extraConfig = "load-module module-combine-sink";
   swapDevices = [ ];
   # Enables DHCP on each ethernet and wireless interface. In case of scripted networking
   # (the default) this is the recommended approach. When using systemd-networkd it's
