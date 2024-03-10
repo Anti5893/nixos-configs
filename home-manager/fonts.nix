@@ -15,7 +15,6 @@
     mplus-outline-fonts.githubRelease
     proggyfonts
     meslo-lgs-nf
-    jetbrains-mono
     nerdfonts
     google-fonts
     ];

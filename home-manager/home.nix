@@ -51,7 +51,9 @@
   slurp
   neofetch
   resources
-  
+  zoom-us
+  powertop
+  tlp
   ];
   
 
