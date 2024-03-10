@@ -54,6 +54,7 @@
   zoom-us
   powertop
   tlp
+  prismlauncher
   ];
   
 
