@@ -71,6 +71,7 @@
     neofetch
     resources
     hardinfo
+    wget
     ];
   };
   programs.steam = {
