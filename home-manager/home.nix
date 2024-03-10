@@ -46,6 +46,11 @@
   pavucontrol
   auto-cpufreq
   libreoffice-fresh
+  swappy
+  grim
+  slurp
+  neofetch
+  resources
   ];
   
 

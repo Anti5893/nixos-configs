@@ -68,12 +68,8 @@
     rofi-wayland
     steam
     zsh
-    neofetch
-    resources
     hardinfo
     wget
-    grim
-    slurp
     ];
   };
   programs.steam = {
