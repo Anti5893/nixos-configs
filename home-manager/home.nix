@@ -51,6 +51,7 @@
   slurp
   neofetch
   resources
+  
   ];
   
 
