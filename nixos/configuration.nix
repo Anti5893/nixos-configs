@@ -67,6 +67,7 @@
     alacritty
     rofi-wayland
     ];
+  };
   
   services.getty.autologinUser = "evan";
   
