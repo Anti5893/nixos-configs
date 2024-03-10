@@ -14,5 +14,6 @@
     fira-code-symbols
     mplus-outline-fonts.githubRelease
     proggyfonts
+    meso-lgs-nf
     ];
 }

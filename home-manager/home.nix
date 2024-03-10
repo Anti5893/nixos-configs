@@ -15,12 +15,13 @@
     # You can also split up your configuration and import pieces of it here:
     ./hyprland.nix
     ./fonts.nix
+    ./terminal.nix
   ];
 
   nixpkgs = {
     config = {
       allowUnfree = true;
-      allowUnfreePredicate = _: true;
+      # allowUnfreePredicate = _: true;
     };
   };
 
@@ -37,6 +38,11 @@
   firefox
   xdg-utils
   ];
+  programs.steam = {
+  enable = true;
+  remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
+  dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
+  };
 
   # Enable home-manager and git
   programs.home-manager.enable = true;
