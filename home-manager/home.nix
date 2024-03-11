@@ -38,7 +38,6 @@
   firefox
   xdg-utils
   obsidian
-  vesktop # discord, vencord
   spotify
   rclone
   via
@@ -55,6 +54,7 @@
   powertop
   tlp
   prismlauncher
+  webcord-vencord
   ];
   
 
