@@ -55,6 +55,10 @@
   tlp
   prismlauncher
   webcord-vencord
+
+  #screensharing
+  pipewire
+  wireplumber
   ];
   
 
