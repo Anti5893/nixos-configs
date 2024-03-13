@@ -7,10 +7,10 @@
 }: {
     home.packages = with pkgs; [
         # Java
-        jdk
-        temurin-jre-bin
+        # jdk
+        # temurin-jre-bin
         # temurin-jre-bin-8
-        temurin-jre-bin-17
+        # temurin-jre-bin-17
         maven
         # Python
         python3
