@@ -16,6 +16,7 @@
     ./hyprland.nix
     ./fonts.nix
     ./terminal.nix
+    ./languages.nix
   ];
 
   nixpkgs = {

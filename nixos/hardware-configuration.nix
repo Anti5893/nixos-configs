@@ -44,7 +44,7 @@
   hardware.cpu.amd.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;
   
   powerManagement.enable = true;
-  # services.tlp.enable = true;
+  services.tlp.enable = true;
   services.auto-cpufreq.enable = true;
   services.auto-cpufreq.settings = {
     battery = {
@@ -58,4 +58,6 @@
   };
   # powerManagement.powertop.enable = true;
   programs.hyprland.enable = true;
+  
+  services.supergfxd.enable = true;
   }
