@@ -7,7 +7,7 @@
 }: {
     home.packages = with pkgs; [
         # Java
-        jdk
+        # jdk
         temurin-jre-bin
         temurin-jre-bin-8
         temurin-jre-bin-17
