@@ -17,7 +17,7 @@
         # Rust
         rustup
         # JS
-        nodej_20
+        nodejs_20
 
     ];
 }
