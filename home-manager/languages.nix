@@ -18,6 +18,7 @@
         rustup
         # JS
         nodejs_20
-
+        # .net
+        dotnet-runtime_7
     ];
 }

@@ -58,7 +58,6 @@
   webcord-vencord
   chromium
   gh
-  git-credential-manager
   #screensharing
   pipewire
   wireplumber
