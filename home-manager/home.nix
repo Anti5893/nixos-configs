@@ -58,6 +58,8 @@
   webcord-vencord
   chromium
   gh
+  unzip
+  ps
   #screensharing
   pipewire
   wireplumber
