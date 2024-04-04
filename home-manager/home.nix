@@ -34,6 +34,7 @@
   # Add stuff for your user as you see fit:
   programs.neovim.enable = true;
   home.packages = with pkgs; [
+  nitch
   steam
   vscode-fhs
   firefox
@@ -41,7 +42,6 @@
   obsidian
   spotify
   rclone
-  via
   brightnessctl
   pavucontrol
   auto-cpufreq
@@ -51,7 +51,6 @@
   slurp
   neofetch
   resources
-  zoom-us
   powertop
   tlp
   prismlauncher
@@ -60,6 +59,13 @@
   gh
   unzip
   ps
+  oh-my-zsh
+  quickemu
+  
+  xwayland
+  xorg.libX11
+  blueman
+  nwg-look
   #screensharing
   pipewire
   wireplumber
@@ -71,7 +77,19 @@
   programs.git.enable = true;
   # Nicely reload system units when changing configs
   systemd.user.startServices = "sd-switch";
+  gtk = {
+    enable = true;
+    theme = {
+      name = "Gruvbox-Dark-B";
 
+      package = pkgs.gruvbox-gtk-theme;
+    };
+    iconTheme = {
+      name = "gnome-icon-theme";
+      package = pkgs.gnome-icon-theme;
+    };
+  };
+  home.enableNixpkgsReleaseCheck=false;
   # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
   home.stateVersion = "23.11";
 }
