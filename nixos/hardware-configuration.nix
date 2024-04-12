@@ -65,4 +65,7 @@
   programs.hyprland.enable = true;
   
   services.supergfxd.enable = true;
+
+  hardware.logitech.wireless.enable = true;
+  hardware.logitech.wireless.enableGraphical = true;
   }

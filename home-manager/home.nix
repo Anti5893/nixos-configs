@@ -17,6 +17,10 @@
     ./fonts.nix
     ./terminal.nix
     ./languages.nix
+    ./core-utils.nix
+    ./basic-programs.nix
+    ./games.nix
+    ./dev.nix
   ];
 
   nixpkgs = {
@@ -32,52 +36,8 @@
   };
 
   # Add stuff for your user as you see fit:
-  programs.neovim.enable = true;
+  
   home.packages = with pkgs; [
-  nitch
-  steam
-  vscode-fhs
-  firefox
-  xdg-utils
-  obsidian
-  spotify
-  rclone
-  brightnessctl
-  pavucontrol
-  auto-cpufreq
-  libreoffice-fresh
-  swappy
-  grim
-  slurp
-  neofetch
-  resources
-  powertop
-  tlp
-  # prismlauncher
-  webcord-vencord
-  # vesktop
-  chromium
-  gh
-  unzip
-  ps
-  oh-my-zsh
-  quickemu
-  cockatrice
-
-
-  xwayland
-  xorg.libX11
-  xorg.libXxf86vm
-  xorg.libXtst
-  gtk3
-  gtk3-x11
-
-  blueman
-  nwg-look
-  libsForQt5.partitionmanager
-  #screensharing
-  pipewire
-  wireplumber
   ];
   
 

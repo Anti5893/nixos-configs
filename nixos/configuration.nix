@@ -57,20 +57,6 @@
     isNormalUser = true;
     description = "Evan Savage";
     extraGroups = [ "networkmanager" "wheel" "audio" "sound" "video" "docker"];
-    packages = with pkgs; [ # in case of home-manager fail
-    git
-    vscode-fhs
-    firefox
-    wayland
-    hyprland
-    waybar
-    alacritty
-    rofi-wayland
-    steam
-    zsh
-    hardinfo
-    wget
-    ];
   };
   programs.steam = {
       enable = true;
@@ -83,8 +69,7 @@
   services.getty.autologinUser = "evan";
   programs.thunar.enable = true;
   virtualisation.docker.enable = true;
-  hardware.logitech.wireless.enable = true;
-  hardware.logitech.wireless.enableGraphical = true;
+
   # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
   system.stateVersion = "24.05";
 }
