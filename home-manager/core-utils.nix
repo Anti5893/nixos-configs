@@ -12,7 +12,7 @@
     unzip
     zsh
     oh-my-zsh
-    nvim
+    neovim
     xdg-utils
     blueman
     gh
@@ -20,6 +20,10 @@
     brightnessctl
     pavucontrol
     resources
+    zoxide
+    fzf
+    zsh-syntax-highlighting
+    yazi
     jq
 # Laptop Battery Management
     powertop
@@ -33,5 +37,5 @@
     grim
     slurp
     ];
+    programs.neovim.enable = true;
 }
-programs.neovim.enable = true;
