@@ -53,19 +53,28 @@
   resources
   powertop
   tlp
-  prismlauncher
+  # prismlauncher
   webcord-vencord
+  # vesktop
   chromium
   gh
   unzip
   ps
   oh-my-zsh
   quickemu
-  
+  cockatrice
+
+
   xwayland
   xorg.libX11
+  xorg.libXxf86vm
+  xorg.libXtst
+  gtk3
+  gtk3-x11
+
   blueman
   nwg-look
+  libsForQt5.partitionmanager
   #screensharing
   pipewire
   wireplumber

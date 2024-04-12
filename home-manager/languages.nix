@@ -9,8 +9,7 @@
         docker
         sonar-scanner-cli
         # Java
-        jdk19
-        javaPackages.openjfx19
+        graalvm-ce
         maven
         # Python
         python3
@@ -22,7 +21,7 @@
         # .net
         dotnet-runtime_7
     ];
-  programs.java.enable = true;
+  # programs.java.enable = true;
   home.file."jdks/openjdk8".source = pkgs.jdk8;
   home.file."jdks/openjdk19".source = pkgs.jdk19;
   home.file."jdks/openjdk21".source = pkgs.jdk21;
