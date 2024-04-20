@@ -15,7 +15,6 @@
     # You can also split up your configuration and import pieces of it here:
     ./hyprland.nix
     ./fonts.nix
-    ./terminal.nix
     ./languages.nix
     ./core-utils.nix
     ./basic-programs.nix

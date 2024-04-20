@@ -10,5 +10,7 @@
     git
     hardinfo
     wget
+    dart-sass
+    tailwindcss
     ];
 }

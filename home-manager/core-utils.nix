@@ -12,7 +12,6 @@
     unzip
     zsh
     oh-my-zsh
-    neovim
     xdg-utils
     blueman
     gh
@@ -24,6 +23,9 @@
     fzf
     zsh-syntax-highlighting
     yazi
+    gvfs
+    xfce.thunar
+    xfce.thunar-volman
     jq
 # Laptop Battery Management
     powertop
