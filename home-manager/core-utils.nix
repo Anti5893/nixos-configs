@@ -27,6 +27,8 @@
     xfce.thunar
     xfce.thunar-volman
     jq
+    p7zip
+    gparted
 # Laptop Battery Management
     powertop
     tlp
@@ -34,10 +36,15 @@
 #screensharing
     pipewire    
     wireplumber
+    xwaylandvideobridge
 # Screenshots
     swappy
     grim
     slurp
+
+
+    xorg.xhost
+    lxde.lxsession
     ];
     programs.neovim.enable = true;
 }

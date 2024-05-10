@@ -9,5 +9,7 @@
     steam
     cockatrice
     prismlauncher
+    protontricks
+    gnome.zenity
     ];
 }
