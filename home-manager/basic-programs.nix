@@ -13,5 +13,7 @@
     rclone
     spotify
     libreoffice-fresh
+    emote
+    slack
     ];
 }

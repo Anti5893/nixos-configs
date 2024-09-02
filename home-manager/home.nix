@@ -45,19 +45,7 @@
   programs.git.enable = true;
   # Nicely reload system units when changing configs
   systemd.user.startServices = "sd-switch";
-  gtk = {
-    enable = true;
-    theme = {
-      name = "Gruvbox-Dark-B";
-
-      package = pkgs.gruvbox-gtk-theme;
-    };
-    iconTheme = {
-      name = "gnome-icon-theme";
-      package = pkgs.gnome-icon-theme;
-    };
-  };
   home.enableNixpkgsReleaseCheck=false;
   # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
-  home.stateVersion = "23.11";
+  home.stateVersion = "24.05";
 }

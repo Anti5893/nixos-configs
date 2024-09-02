@@ -9,7 +9,7 @@
 }: {
   # You can import other NixOS modules here
   imports = [
-    inputs.hardware.nixosModules.asus-zephyrus-ga402x.nvidia
+    <nixos-hardware/asus/zephyrus/ga402x/nvidia>
 
     # You can also split up your configuration and import pieces of it here:
     # ./users.nix

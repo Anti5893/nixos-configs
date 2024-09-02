@@ -22,25 +22,22 @@
     zoxide
     fzf
     zsh-syntax-highlighting
-    yazi
     gvfs
     xfce.thunar
     xfce.thunar-volman
     jq
     p7zip
     gparted
+    yad
+    screen
 # Laptop Battery Management
     powertop
     tlp
     auto-cpufreq
-#screensharing
-    pipewire    
-    wireplumber
-    xwaylandvideobridge
 # Screenshots
-    swappy
     grim
     slurp
+    #swappy #replaced with hyprshot in hyprland
 
 
     xorg.xhost
